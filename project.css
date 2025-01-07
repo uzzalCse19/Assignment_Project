@@ -1,0 +1,84 @@
+.search-container{
+    text-align: center;
+    margin: 20px;
+}
+
+#searchInput{
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.search-container-button:hover{
+    background-color: #556474;
+    color: white;
+}
+
+.main-container
+{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.cart-container
+{
+    width: 20%;
+    height: 30%;
+    box-shadow: 4px 4px 8px gray;
+    position: relative;
+    padding: 20px;
+    text-align: center;
+}
+
+.drink-container
+{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+
+
+.close-btn{
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    cursor: pointer;
+    font-size: 25px;
+    color: red;
+
+
+}
+.card-img
+{
+    width: 150px;
+    height: 150px;
+
+}
+
+
+
+button{
+    margin: 5px 0;
+}
+
+.card:hover{
+    box-shadow: 0px 4px 10px rgba(red, green, blue, alpha);
+    transform: scale(1.10);
+    transition: all 0.3s ease-in-out;
+}
+
+body{
+    background-color: #f8f9fa;
+}
+
+#modalImg{
+    width: 200px;
+    border-radius: 10px;
+    height: auto;
+}
+
+
